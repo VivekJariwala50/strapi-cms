@@ -1,0 +1,24 @@
+{
+    "kind": "collectionType",
+    "collectionName": "experiences",
+    "info": {
+        "singularName": "experience",
+        "pluralName": "experiences",
+        "displayName": "Experience",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "CompanyName": {
+            "type": "text"
+        },
+        "Role": {
+            "type": "text"
+        },
+        "Range": {
+            "type": "text"
+        }
+    }
+}

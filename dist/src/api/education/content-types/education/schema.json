@@ -1,0 +1,24 @@
+{
+    "kind": "collectionType",
+    "collectionName": "educations",
+    "info": {
+        "singularName": "education",
+        "pluralName": "educations",
+        "displayName": "Education",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "UniversityName": {
+            "type": "text"
+        },
+        "Range": {
+            "type": "text"
+        },
+        "DegreeName": {
+            "type": "text"
+        }
+    }
+}

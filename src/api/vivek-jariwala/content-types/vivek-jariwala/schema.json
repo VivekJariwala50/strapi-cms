@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vivek_jariwalas",
+  "info": {
+    "singularName": "vivek-jariwala",
+    "pluralName": "vivek-jariwalas",
+    "displayName": "VivekJariwala",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Number": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundImg": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Technologies": {
+      "type": "text",
+      "required": true
+    },
+    "Tagline": {
+      "type": "text",
+      "required": true
+    },
+    "CoverImg": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Link": {
+      "type": "text"
+    }
+  }
+}
